@@ -1,0 +1,24 @@
+═══════════════════════════════════════════════════════════════
+ SISTEMA DE FACTURACIÓN - SENA
+ Tecnólogo en Análisis y Desarrollo de Software
+═══════════════════════════════════════════════════════════════
+
+ENLACE AL REPOSITORIO GITHUB:
+[PEGAR TU URL DE GITHUB AQUÍ]
+
+EVIDENCIA: AA2-EV01
+APRENDIZ: JDiego
+FICHA: 3140775
+INSTRUCTOR: Luz
+ENTREGA: 2026
+
+TECNOLOGÍAS UTILIZADAS:
+- Java JDK 25
+- MySQL
+- JDBC
+- Servlets & JSP
+- Apache Tomcat 9
+- Git & GitHub
+- VS Code
+
+═══════════════════════════════════════════════════════════════
