@@ -59,6 +59,10 @@ public class ClienteDAO {
         return lista;
     }
     
+    public List<Cliente> listar() {
+        return consultarTodos();
+    }
+    
     public Cliente consultarPorId(int id) {
         String sql = "SELECT * FROM clientes WHERE `IdCliente` = ?";
         try (PreparedStatement ps = conexion.getConnection().prepareStatement(sql)) {

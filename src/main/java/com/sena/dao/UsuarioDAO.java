@@ -61,6 +61,10 @@ public class UsuarioDAO {
         return lista;
     }
     
+    public List<Usuario> listar() {
+        return consultarTodos();
+    }
+    
     public Usuario validarLogin(String usuario, String contraseña) {
         String sql = "SELECT * FROM usuarios WHERE `Usuario` = ? AND `Contraseña` = ?";
         try (PreparedStatement ps = conexion.getConnection().prepareStatement(sql)) {

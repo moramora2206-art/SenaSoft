@@ -57,6 +57,10 @@ public class ProveedorDAO {
         return lista;
     }
     
+    public List<Proveedor> listar() {
+        return consultarTodos();
+    }
+    
     public Proveedor consultarPorId(int id) {
         String sql = "SELECT * FROM proveedores WHERE `IdProveedor` = ?";
         try (PreparedStatement ps = conexion.getConnection().prepareStatement(sql)) {

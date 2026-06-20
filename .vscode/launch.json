@@ -1,10 +1,19 @@
 {
     "version": "0.2.0",
-    "configurations": [{
-        "type": "java",
-        "name": "Run Main",
-        "request": "launch",
-        "mainClass": "com.sena.main.Main",
-        "projectName": "PROYTJAVA"
-    }]
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TestClientes",
+            "request": "launch",
+            "mainClass": "TestClientes",
+            "projectName": "PROYTJAVA"
+        },
+        {
+            "type": "java",
+            "name": "Run Main",
+            "request": "launch",
+            "mainClass": "com.sena.main.Main",
+            "projectName": "PROYTJAVA"
+        }
+    ]
 }

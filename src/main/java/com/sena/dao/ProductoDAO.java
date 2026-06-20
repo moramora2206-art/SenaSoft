@@ -59,6 +59,10 @@ public class ProductoDAO {
         return lista;
     }
     
+    public List<Producto> listar() {
+        return consultarTodos();
+    }
+    
     public Producto consultarPorId(int id) {
         String sql = "SELECT * FROM productos WHERE `IdProducto` = ?";
         try (PreparedStatement ps = conexion.getConnection().prepareStatement(sql)) {
